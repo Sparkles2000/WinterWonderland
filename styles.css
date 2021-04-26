@@ -1,27 +1,40 @@
 html {
     background-repeat: repeat-y;
-    background: url(backgrounds/Bow1.png) no-repeat; 
+    background: url(backgrounds/Bow1.png) no-repeat;
     background-size: cover;
 }
+
 h1 {
     text-align: center;
     color: white;
     font-style: normal;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 h2 {
     color: white;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
 h3 {
-    color:white;
+    color: white;
     font-style: oblique;
     font-family: cursive;
     text-align: center;
 }
+
 .musicNavbar {
     flex-shrink: inherit;
     text-align: center;
+    padding: 0%;
+    background-image: transparent;
+    background-size: 0%;
+}
+
+button {
+    size: width 3% hight 3%;
+    padding: 0%;
+    background-color: transparent;
 }
